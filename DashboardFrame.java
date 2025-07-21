@@ -184,7 +184,7 @@ public class DashboardFrame extends JFrame {
             }
         }
         
-        // If data is empty, load sample data
+        // If data is empty, load sample data for showing purpose
         if (taskStatusData.isEmpty() || assignmentData.isEmpty()) {
             loadSampleData();
         }
